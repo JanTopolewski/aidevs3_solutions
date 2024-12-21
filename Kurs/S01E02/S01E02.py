@@ -30,7 +30,7 @@ async def send_answer_to_server(ai_response, url, msgID):
 
 async def send_answer_to_gpt(response, url):
     print('Server response: \n',response, '\n')
-    system_prompt = '''You are a helpful assistant that answers as short as possible.
+    system_prompt = '''You are a helpful assistant that answers as short as posssible.
     <objective>
         - you have to find the question in the given text and answer it as short as you can
         - you have to reply in English only with the JSON object containing "answer" based on your knowledge or information given in the text

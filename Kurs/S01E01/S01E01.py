@@ -45,7 +45,7 @@ async def get_model_response(prompt):
     response = await client.chat.completions.create(
         model = "gpt-4o-mini",
         messages = [
-            {"role" : "system", "content" : '''You are a helpful assistant that answers as short as possible.
+            {"role" : "system", "content" : '''You are a helpful assistant that answers as short as posssible.
             <rules>
                 -Your answer has to be an integer
                 -Your answer can only contain digits. You are not allowed to respond with any other character.
