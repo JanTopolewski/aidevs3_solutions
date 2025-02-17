@@ -158,7 +158,7 @@ async def main():
             save_text(result["text"], result["file"])
         print("Saved all files")
 
-    elif choice.lower() == "n" and choice.lower() == "no":
+    elif choice.lower() != "n" and choice.lower() != "no":
         print("Invalid choice!")
         return
 
